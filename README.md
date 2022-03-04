@@ -51,7 +51,7 @@ La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diven
 
 ## Configurazione SASS (node_modules)
 
-All'interno della cartella assets è presente il file `package.json` quindi aprite il prompt Git e dalla cartella assets eseguire:
+All'interno della cartella assets è presente il file `package.json` quindi aprite Git Bash e dalla cartella assets eseguire:
 
 ```console
 npm install node-sass --save-dev
