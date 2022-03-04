@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="box__col box__col--1">
+          <div class="box__button-container">
+            <button class="box__button decrease-button" data-action="decrease">
+              -
+            </button>
+          </div>
+        </div>
+        <div class="box__col box__col--2">
+          <div class="box__fbutton-container">
+            <figure class="box__img-container">
+              <img
+                width="80"
+                src="/assets/img/bg_fbutton1.png"
+                alt="Fake Button 1"
+                class="box__fbutton-img box__fbutton-img--1"
+              />
+            </figure>
+            <figure class="box__img-container">
+              <img
+                width="80"
+                src="/assets/img/bg_fbutton2.png"
+                alt="Fake Button 2"
+                class="box__fbutton-img box__fbutton-img--2"
+              />
+            </figure>
+            <figure class="box__img-container">
+              <img
+                width="80"
+                src="/assets/img/bg_fbutton3.png"
+                alt="Fake Button 3"
+                class="box__fbutton-img box__fbutton-img--3"
+              />
+            </figure>
+            <figure class="box__img-container">
+              <img
+                width="80"
+                src="/assets/img/bg_fbutton4.png"
+                alt="Fake Button 4"
+                class="box__fbutton-img box__fbutton-img--4"
+              />
+            </figure>
+            <figure class="box__img-container">
+              <img
+                width="80"
+                src="/assets/img/bg_fbutton5.png"
+                alt="Fake Button 5"
+                class="box__fbutton-img box__fbutton-img--5"
+              />
+            </figure>
+          </div>
+          <div class="box__display-container">
+            <h1 class="box__display-text">0</h1>
+            <div class="box__display">&nbsp;</div>
+          </div>
+
+          <button class="box__reset-btn u-button-universal" data-action="reset">
+            RESET
+          </button>
+        </div>
+        <div class="box__col box__col--3">
+          <div class="box__button-container">
+            <button
+              class="box__button decrease-button u-hidden"
+              data-action="decrease"
+            >
+              -
+            </button>
+            <button class="box__button increase-button" data-action="increase">
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

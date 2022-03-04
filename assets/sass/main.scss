@@ -1,0 +1,328 @@
+// GLOBAL RESET
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// DEFINING 1REM
+// 1.6rem = 16px
+
+html {
+  font-size: 62.5%;
+}
+
+// COLOR
+$primary-color: #b983ff;
+$secondary-color: #94b3fd;
+$tertiary-color: #94daff;
+$quaternary-color: #99feff;
+$white-color: #ffffff;
+
+$exp1-color: #101b37;
+$exp2-color: #e41376;
+$exp3-color: #01cbee;
+
+// Animation
+@keyframes pulsing {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/////////////MEDIA QUERIES
+
+// RESPONSIVE BREAKPOINTS
+$bp-1300px: 81.25em;
+$bp-1100px: 68.75em;
+
+// Tablet
+$bp-980px: 61.25em;
+$bp-880px: 55em;
+$bp-730px: 45.625em;
+$bp-600px: 37.5em;
+
+// Phone
+$bp-500px: 31.25em;
+$bp-425px: 26.5625em;
+
+// UTILITIES
+.u-button-universal {
+  background-color: $white-color;
+  border: 2px solid $secondary-color;
+  border-radius: 100%;
+
+  &:hover {
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.171);
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
+}
+
+// CLASSE PER ROTAZIONE DISPLAY SENSO ORARIO
+.u-rotate-right {
+  transform: rotate(90deg);
+}
+
+// CLASSE PER ROTAZIONE DISPLAY SENSO ANTIORARIO
+.u-rotate-left {
+  transform: rotate(-90deg);
+}
+
+// CLASSE PER ROTAZIONE DISPLAY RESET
+.u-reset-rotation {
+  //transform: rotate(-180deg) rotateX(60deg);
+  transform: rotate(-360deg);
+}
+
+.u-hidden {
+  display: none;
+
+  @media only screen and (max-width: $bp-600px) {
+    display: block;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131212;
+  background-image: url(/assets/img/bg_container.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__h1 {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+}
+
+.box {
+  width: 80%;
+  display: flex;
+
+  &__reset-btn {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #41dab8;
+    border-radius: 2px;
+
+    background-color: transparent;
+
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-weight: normal;
+    color: $white-color;
+
+    @media only screen and (max-width: $bp-1300px) {
+      font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: $bp-730px) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (max-height: $bp-500px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__col {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-600px) {
+      width: 60%;
+
+      &--1 {
+        order: 3;
+        display: none;
+      }
+
+      &--2 {
+        order: 1;
+      }
+
+      &--3 {
+        order: 2;
+      }
+    }
+
+    @media only screen and (max-width: $bp-500px) {
+      width: 80%;
+    }
+  }
+
+  &__fbutton-container {
+    width: 100%;
+    border: 1px solid #41dab8;
+    border-radius: 2px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  &__img-container {
+    width: 100%;
+  }
+
+  &__fbutton-img {
+    width: 100%;
+    max-width: 80px;
+
+    &--1 {
+      animation-name: pulsing;
+      animation-duration: 1s;
+      animation-delay: 0.5s;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    &--4 {
+      padding: 5px;
+
+      animation-name: pulsing;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    &--5 {
+      padding: 5px;
+    }
+  }
+
+  &__display-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__display {
+    width: 30vw;
+    height: 30vw;
+    max-width: 400px;
+    margin: 50px 0;
+    background-image: url(/assets/img/bg_display.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-600px) {
+      width: 50vw;
+      height: 50vw;
+    }
+
+    @media only screen and (max-height: $bp-500px) {
+      height: 50vh;
+      margin: 20px 0;
+    }
+  }
+
+  &__display-text {
+    color: $white-color;
+    font-size: 7rem;
+    position: absolute;
+
+    @media only screen and (max-width: $bp-1300px) {
+      font-size: 6rem;
+    }
+
+    @media only screen and (max-width: $bp-1100px) {
+      font-size: 5rem;
+    }
+
+    @media only screen and (max-width: $bp-880px) {
+      font-size: 4rem;
+    }
+
+    @media only screen and (max-width: $bp-730px) {
+      font-size: 3.5rem;
+    }
+
+    @media only screen and (max-height: $bp-500px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__button-container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-600px) {
+      padding: 20px;
+      justify-content: space-around;
+    }
+  }
+
+  &__button {
+    width: 30%;
+    height: 100px;
+    color: $white-color;
+    border: none;
+    font-size: 3.6rem;
+    background-image: url(/assets/img/bg_button.png);
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(0px);
+
+    &:active {
+      transform: translateY(5px);
+    }
+
+    @media only screen and (max-width: $bp-880px) {
+      font-size: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-730px) {
+      font-size: 2.6rem;
+    }
+
+    @media only screen and (max-height: $bp-500px) {
+      height: 60px;
+    }
+  }
+
+  @media only screen and (max-width: $bp-730px) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: $bp-600px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
