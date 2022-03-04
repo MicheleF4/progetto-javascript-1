@@ -1,0 +1,37 @@
+// UTILITIES
+.u-button-universal {
+  background-color: $white-color;
+  border-radius: 100%;
+
+  &:hover {
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.171);
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
+}
+
+// CLASSE PER ROTAZIONE DISPLAY SENSO ORARIO
+.u-rotate-right {
+  transform: rotate(90deg);
+}
+
+// CLASSE PER ROTAZIONE DISPLAY SENSO ANTIORARIO
+.u-rotate-left {
+  transform: rotate(-90deg);
+}
+
+// CLASSE PER ROTAZIONE DISPLAY RESET
+.u-reset-rotation {
+  //transform: rotate(-180deg) rotateX(60deg);
+  transform: rotate(-360deg);
+}
+
+.u-hidden {
+  display: none;
+
+  @media only screen and (max-width: $bp-600px) {
+    display: block;
+  }
+}
