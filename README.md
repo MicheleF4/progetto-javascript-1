@@ -21,4 +21,38 @@ La versione Desktop mostra il contatore nella sua massima risoluzione e il layou
 ## Versione Mobile
 
 La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diventando più compatto e funzionale. Il display sale di posizione lasciando lo spazio in basso a tutti i vari pulsanti.
-<img src="README_images/mobile_screenshot.png" align="right" width="280">
+
+<img src="README_images/mobile_screenshot.png" width="280">
+
+## Architettura sito
+
+- All'interno di assets troveremo:
+  - css
+    - 3 file .css
+  - favicon
+    - diversi file favicon per i browser
+  - img
+    - immagini
+  - js
+    - il file JavaScript: script.js
+  - sass
+    - abstracts
+      - animations
+      - responsive-breakpoints
+      - variables
+    - base
+      - base
+      - utilities (utility classes)
+    - pages
+      - home
+    - main.scss (con la funzione di `@import`)
+  - package.json
+  - package-lock.json
+
+## Configurazione SASS (node_modules)
+
+All'interno della cartella assets è presente il file package.json quindi aprite il prompt Git e dalla cartella assets eseguire:
+
+```console
+npm install node-sass --save-dev
+```
