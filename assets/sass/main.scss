@@ -13,15 +13,9 @@ html {
 }
 
 // COLOR
-$primary-color: #b983ff;
-$secondary-color: #94b3fd;
-$tertiary-color: #94daff;
-$quaternary-color: #99feff;
+$primary-color: #41dab8;
+$secondary-color: #131212;
 $white-color: #ffffff;
-
-$exp1-color: #101b37;
-$exp2-color: #e41376;
-$exp3-color: #01cbee;
 
 // Animation
 @keyframes pulsing {
@@ -52,7 +46,6 @@ $bp-425px: 26.5625em;
 // UTILITIES
 .u-button-universal {
   background-color: $white-color;
-  border: 2px solid $secondary-color;
   border-radius: 100%;
 
   &:hover {
@@ -99,14 +92,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #131212;
+  background-color: $secondary-color;
   background-image: url(/assets/img/bg_container.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
   &__h1 {
     margin: 20px;
-    color: rgb(255, 255, 255);
+    color: $white-color;
     font-weight: bold;
   }
 }
@@ -118,7 +111,7 @@ body {
   &__reset-btn {
     width: 80%;
     padding: 15px;
-    border: 1px solid #41dab8;
+    border: 2px solid $primary-color;
     border-radius: 2px;
 
     background-color: transparent;
@@ -172,7 +165,7 @@ body {
 
   &__fbutton-container {
     width: 100%;
-    border: 1px solid #41dab8;
+    border: 2px solid $primary-color;
     border-radius: 2px;
     padding: 10px;
 
