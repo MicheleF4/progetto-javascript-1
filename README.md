@@ -45,9 +45,9 @@ La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diven
       - utilities (utility classes)
     - pages
       - home
-    - main.scss (con la funzione di `@import`)
-  - package.json
-  - package-lock.json
+    - `main.scss` (con la funzione di `@import`)
+  - `package.json`
+  - `package-lock.json`
 
 ## Configurazione SASS (node_modules)
 
