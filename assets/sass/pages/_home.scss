@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   background-color: $secondary-color;
-  background-image: url(/assets/img/bg_container.jpg);
+  background-image: url(../../assets/img/bg_container.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -134,7 +134,7 @@
     height: 30vw;
     max-width: 400px;
     margin: 50px 0;
-    background-image: url(/assets/img/bg_display.png);
+    background-image: url(../../assets/img/bg_display.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,6 +142,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media only screen and (max-width: $bp-1600px) {
+      width: 25vw;
+      height: 25vw;
+    }
 
     @media only screen and (max-width: $bp-600px) {
       width: 50vw;
@@ -199,7 +204,7 @@
     color: $white-color;
     border: none;
     font-size: 3.6rem;
-    background-image: url(/assets/img/bg_button.png);
+    background-image: url(../../assets/img/bg_button.png);
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
