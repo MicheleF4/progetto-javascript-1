@@ -10,7 +10,10 @@
   - [Versione Desktop](#versione-desktop)
   - [Versione Mobile](#versione-mobile)
 - [Architettura sito](#architettura-sito)
+- [Linguaggi utilizzati](#linguaggi-utilizzati)
 - [Installazione node-sass](#installazione-node-sass)
+- [Contatti](#contatti)
+- [Socials](#socials)
 
 <br>
 <br>
@@ -84,6 +87,16 @@ La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diven
 <br>
 <br>
 
+## Linguaggi utilizzati
+
+Il progetto è stato realizzato utilizzando:
+
+- JavaScript
+- CSS
+- HTML
+
+<br>
+
 ## Installazione node-sass
 
 All'interno della cartella assets è presente il file `package.json` quindi aprite Git Bash e dalla cartella assets eseguire:
@@ -91,3 +104,23 @@ All'interno della cartella assets è presente il file `package.json` quindi apri
 ```console
 npm install node-sass --save-dev
 ```
+
+<br>
+
+## Contatti
+
+Antonio Michele Fano
+
+:email: email: michelefanolab@gmail.com
+
+Link del progetto:
+
+<br>
+
+## Socials
+
+Facebook:
+
+Instagram:
+
+Sito:
