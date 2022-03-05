@@ -43,9 +43,9 @@ La versione Desktop mostra il contatore nella sua massima risoluzione e il layou
 
 La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diventando più compatto e funzionale. Il display sale di posizione lasciando lo spazio in basso a tutti i vari pulsanti.
 
-<center>
+<p align="center">
 <img src="README_images/mobile_screenshot.png" width="280">
-</center>
+</p>
 
 <br>
 <br>
