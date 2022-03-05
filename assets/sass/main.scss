@@ -1,8 +1,8 @@
-@import "base/base";
-@import "base/utilities";
-
 @import "abstracts/variables";
 @import "abstracts/responsive-breakpoints";
 @import "abstracts/animations";
+
+@import "base/base";
+@import "base/utilities";
 
 @import "pages/home";
