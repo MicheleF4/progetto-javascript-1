@@ -1,7 +1,5 @@
-<center>
-<img src="README_images/logo.png" width="50">
-<h1>Progetto JavaScript - Counter</h1>
-</center>
+<p align="center"><img src="README_images/logo.png" width="50"></p>
+<h1 align="center">Progetto JavaScript - Counter</h1>
 
 <h3 align="center">Antonio Michele Fano</h3>
 
