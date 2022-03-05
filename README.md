@@ -48,11 +48,9 @@ La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diven
 </p>
 
 <br>
-<br>
 
 ---
 
-<br>
 <br>
 
 ## Architettura sito
