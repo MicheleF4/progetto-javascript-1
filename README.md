@@ -10,8 +10,9 @@
   - [Versione Desktop](#versione-desktop)
   - [Versione Mobile](#versione-mobile)
 - [Architettura sito](#architettura-sito)
-- [Linguaggi utilizzati](#linguaggi-utilizzati)
+- [Struttura della cartella SASS](#struttura-della-cartella-sass)
 - [Installazione node-sass](#installazione-node-sass)
+- [Linguaggi utilizzati](#linguaggi-utilizzati)
 - [Contatti](#contatti)
 - [Socials](#socials)
 
@@ -87,6 +88,32 @@ La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diven
 <br>
 <br>
 
+## Struttura della cartella SASS
+
+Il file `main.scss` importa tutti gli altri file (animations, responsive-breakpoints, variables ecc).
+
+Questo metodo permette di suddividere per categoria il codice, aumentandone la leggibilità e l'ordine.
+
+All'interno della cartella SASS troveremo le seguenti sottocartelle:
+
+- abstracts
+- base
+- pages
+
+<br>
+<br>
+
+## Installazione node-sass
+
+All'interno della cartella assets è presente il file `package.json` quindi aprite Git Bash e dalla cartella assets eseguire:
+
+```console
+npm install node-sass --save-dev
+```
+
+<br>
+<br>
+
 ## Linguaggi utilizzati
 
 Il progetto è stato realizzato utilizzando:
@@ -97,13 +124,7 @@ Il progetto è stato realizzato utilizzando:
 
 <br>
 
-## Installazione node-sass
-
-All'interno della cartella assets è presente il file `package.json` quindi aprite Git Bash e dalla cartella assets eseguire:
-
-```console
-npm install node-sass --save-dev
-```
+---
 
 <br>
 
@@ -116,11 +137,12 @@ Antonio Michele Fano
 Link del progetto: https://michelef4.github.io/Counter/
 
 <br>
+<br>
 
 ## Socials
 
-Facebook:
+Facebook: https://www.facebook.com/MicheleFanoMusic
 
-Instagram:
+Instagram: https://www.instagram.com/michelefano
 
 Sito: https://michelef4.github.io/
