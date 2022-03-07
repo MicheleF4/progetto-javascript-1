@@ -10,7 +10,7 @@
   - [Versione Desktop](#versione-desktop)
   - [Versione Mobile](#versione-mobile)
 - [Architettura sito](#architettura-sito)
-- [Struttura della cartella SASS](#struttura-della-cartella-sass)
+- [Architettura SASS](#architettura-sass)
 - [Installazione node-sass](#installazione-node-sass)
 - [Linguaggi utilizzati](#linguaggi-utilizzati)
 - [Contatti](#contatti)
@@ -88,7 +88,7 @@ La versione mobile è ottimizzata per l'uso sul telefono. Il layout cambia diven
 <br>
 <br>
 
-## Struttura della cartella SASS
+## Architettura SASS
 
 Il file `main.scss` importa tutti gli altri file (animations, responsive-breakpoints, variables ecc).
 
