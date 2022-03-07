@@ -134,7 +134,7 @@ Antonio Michele Fano
 
 :email: email: michelefanolab@gmail.com
 
-Link del progetto: https://github.com/MicheleF4/counter
+Link del progetto: https://michelef4.github.io/counter/
 
 <br>
 <br>
