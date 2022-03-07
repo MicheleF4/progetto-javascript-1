@@ -141,7 +141,7 @@ Link del progetto: https://michelef4.github.io/counter/
 
 ## Socials
 
-Facebook: https://www.facebook.com/MicheleFanoMusic
+Facebook: https://www.facebook.com/michele.fano.5
 
 Instagram: https://www.instagram.com/michelefano
 
