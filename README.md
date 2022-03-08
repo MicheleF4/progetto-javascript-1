@@ -167,7 +167,7 @@ Il progetto è stato realizzato utilizzando:
 
 Antonio Michele Fano
 
-:email: email: michelefanolab@gmail.com
+:email: Email: michelefanolab@gmail.com
 
 Link del progetto: https://michelef4.github.io/counter/
 
