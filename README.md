@@ -12,6 +12,7 @@
 - [Architettura sito](#architettura-sito)
 - [Architettura SASS](#architettura-sass)
 - [Installazione node-sass](#installazione-node-sass)
+- [Creazione del file style.css](#creazione-del-file-stylecss)
 - [Linguaggi utilizzati](#linguaggi-utilizzati)
 - [Contatti](#contatti)
 - [Socials](#socials)
@@ -105,11 +106,41 @@ All'interno della cartella SASS troveremo le seguenti sottocartelle:
 
 ## Installazione node-sass
 
+Durante la creazione del progetto ho utilizzato:
+
+- Node.js
+- NPM
+
 All'interno della cartella assets è presente il file `package.json` quindi aprite Git Bash e dalla cartella assets eseguire:
 
 ```console
 npm install node-sass --save-dev
 ```
+
+<br>
+<br>
+
+## Creazione del file style.css
+
+La creazione del file `style.css` avviene in 3 fasi utilizzando i seguenti scripts:
+
+- `compile:sass`
+- `prefix:css`
+- `compress:css`
+
+Questi scripts sono inseriti all'interno dello script `build:css`.
+
+<br>
+
+Lo script `build:css` utilizza `npm-run-all` ed esegue molteplici npm-scripts in modo parallelo o sequenziale.
+
+- Maggiori info: https://www.npmjs.com/package/npm-run-all
+
+<br>
+
+Per utilizzare `prefix:css` bisogna installare `autoprefixer`.
+
+- Maggiori info: https://www.npmjs.com/package/autoprefixer
 
 <br>
 <br>
