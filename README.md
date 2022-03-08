@@ -6,7 +6,7 @@
 <br>
 <br>
 
-- [Breve introduzione al design e alle funzionalità](#breve-introduzione-al-design-e-alle-funzionalità)
+- [Introduzione al design e alle funzionalità](#introduzione-al-design-e-alle-funzionalità)
   - [Versione Desktop](#versione-desktop)
   - [Versione Mobile](#versione-mobile)
 - [Architettura sito](#architettura-sito)
@@ -20,7 +20,7 @@
 <br>
 <br>
 
-## Breve introduzione al design e alle funzionalità
+## Introduzione al design e alle funzionalità
 
 <br>
 
