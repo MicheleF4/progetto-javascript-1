@@ -6,6 +6,10 @@
 <br>
 <br>
 
+Il progetto è disponibile al seguente [link](https://michelef4.github.io/counter/).
+
+<br>
+
 - [Introduzione al design e alle funzionalità](#introduzione-al-design-e-alle-funzionalità)
   - [Versione Desktop](#versione-desktop)
   - [Versione Mobile](#versione-mobile)
