@@ -26,8 +26,7 @@
 
 Ho creato e curato personalmente gli elementi grafici con Figma.
 
-Lo sfondo l'ho creato utilizzando la seguente immagine:
-https://unsplash.com/photos/4IrVnSpwk48
+Lo sfondo l'ho creato utilizzando l'immagine disponibile al seguente [link](https://unsplash.com/photos/4IrVnSpwk48).
 
 - ### Design:
 
