@@ -24,6 +24,11 @@
 
 <br>
 
+Ho creato e curato personalmente gli elementi grafici con Figma.
+
+Lo sfondo l'ho creato utilizzando la seguente immagine:
+https://unsplash.com/photos/4IrVnSpwk48
+
 - ### Design:
 
   - Il Design contiene elementi grafici futuristici.
