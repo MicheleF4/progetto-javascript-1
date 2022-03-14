@@ -20,6 +20,11 @@ buttonDecrease2.classList.add("box__button", "decrease-button", "u-hidden");
 buttonIncrease.classList.add("box__button", "increase-button");
 buttonReset.classList.add("box__reset-btn", "u-button-universal");
 
+buttonDecrease.setAttribute("data-action", "decrease");
+buttonDecrease2.setAttribute("data-action", "decrease");
+buttonIncrease.setAttribute("data-action", "increase");
+buttonReset.setAttribute("data-action", "reset");
+
 buttonDecrease.textContent = "-";
 buttonDecrease2.textContent = "-";
 buttonIncrease.textContent = "+";
@@ -28,13 +33,8 @@ buttonReset.textContent = "RESET";
 buttonContainer1.append(buttonDecrease);
 buttonContainer2.append(buttonDecrease2);
 buttonContainer2.append(buttonIncrease);
-displayContainer.append(displayText);
+displayContainer.prepend(displayText);
 boxCol2.append(buttonReset);
-
-buttonDecrease.setAttribute("data-action", "decrease");
-buttonDecrease2.setAttribute("data-action", "decrease");
-buttonIncrease.setAttribute("data-action", "increase");
-buttonReset.setAttribute("data-action", "reset");
 
 let num = 0;
 displayText.textContent = num;
